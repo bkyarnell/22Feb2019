@@ -41,4 +41,17 @@
 
 
 
+Create Username:
+
+git config --global user.name bkyarnell@msn.com "Bryan Yarnell"
+
+
+Verify Global Settings:
+
+git config --global -l
+
+
+
+
+
 
