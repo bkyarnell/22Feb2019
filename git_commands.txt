@@ -1,0 +1,492 @@
+  257  mkdir SampleProject
+  258  cd SampleProject/
+  259  mkdir initExample
+  260  mkdir cloneExample
+  261  cd initExample/
+  262  pwd
+  263  git init
+  264  ls -l
+  265  ls -la
+  266  cat .git
+  267  cd .git
+  268  ls
+  269  cd ..
+  270  cd ../cloneExample/
+  271  pwd
+  272  git clone https://github.com/bkyarnell/cloneExample.git
+  273  ls -l
+  274  cd cloneExample/
+  275  ls
+  276  cat README.md 
+  277  pwd
+  278  cd ..
+  279  pwd
+  280  cd ..
+  281  mkdir gitPractice
+  282  cd gitPractice/
+  283  pwd
+  284  git clone https://github.com/bkyarnell/gitPractice.git
+  285  ls
+  286  cd gitPractice/
+  287  ls
+  288  ls -l
+  289  cat a.txt
+  290  cat b.txt
+  291  git
+  292  git status
+  293  git help status
+  294  git status
+  295  git state
+  296  ls
+  297  cd ..
+  298  ls
+  299  rmdir -a gitPractice/
+  300  rmdir --help
+  301  man rmdir
+  302  rmdir -r gitPractice/
+  303  rm -r gitPractice/
+  304  rm -rf gitPractice/
+  305  ls
+  306  pwd
+  307  touch one.txt
+  308  touch two.txt
+  309  mkdir subfolder
+  310  cd subfolder/
+  311  touch three.txt
+  312  mkdir subfolder
+  313  cd subfolder/
+  314  mkdir four.txt
+  315  pwd
+  316  ls
+  317  cd ..
+  318  pwd
+  319  cat "hello" >> one.txt 
+  320  echo "hello"
+  321  echo "hello" > one.txt
+  322  cat one.txt
+  323  echo "This is a comment in one.txt" > one.txt
+  324  cat one.txt
+  325  rm two.txt 
+  326  ls
+  327  touch five.txt
+  328  echo "This is a new text file for five.txt"
+  329  echo "This is a new text file for five.txt" > five.txt
+  330  git status
+  331  git init
+  332  git status
+  333  cd subfolder/
+  334  ls
+  335  ks
+  336  ls
+  337  cd subfolder/
+  338  ls
+  339  echo "This is a new text file for four.txt" > four.txt
+  340  git --help add
+  341  cd ..
+  342  git status
+  343  git add -A
+  344  git status
+  345  git reset
+  346  git status
+  347  git add -A
+  348  git status
+  349  git add .
+  350  git status
+  351  ls 
+  352  touch two.txt
+  353  git status
+  354  git add --all
+  355  git status
+  356  clear
+  357  git status
+  358  git reset
+  359  git status
+  360  git add *
+  361  git status
+  362  git reset
+  363  git add -A
+  364  git status
+  365  rm one.txt 
+  366  git status
+  367  ls
+  368  git reset
+  369  git status
+  370  ls
+  371  git status
+  372  touch one.txt
+  373  git status
+  374  rm one.txt
+  375  git status
+  376  touch one.txt
+  377  git add *
+  378  git status
+  379  rm one.txt 
+  380  git status
+  381  git add *
+  382  git status
+  383  git add -a
+  384  git add -A
+  385  git status
+  386  ls
+  387  git --help commit
+  388  git commit -m "Initial file checkin for gitPractice files"
+  389  git config --global Bryan.Yarnell
+  390  git config --global user.name Bryan.Yarnell
+  391  git config --global user.email bkyarnell@gmail.com
+  392  git --help config
+  393  git config list
+  394  git config -l
+  395  git status
+  396  get reset HEAD
+  397  get reset HEAD~
+  398  git reset HEAD
+  399  git status
+  400  git reset HEAD~
+  401  git status
+  402  git 
+  403  git show
+  404  git
+  405  git branch list
+  406  git branch
+  407  git reset
+  408  git status
+  409  ls
+  410  git
+  411  git show
+  412  ls
+  413  vi two.txt 
+  414  git status
+  415  git diff two.txt
+  416  git diff
+  417  git add two.txt
+  418  git diff two.txt
+  419  git diff --cached
+  420  git reset
+  421  ls
+  422  ls -l
+  423  git status
+  424  git diff
+  425  git --help reset
+  426  git reset --hard
+  427  git diff
+  428  cat two.txt 
+  429  ls
+  430  cat two
+  431  cat two.txt 
+  432  echo "This is a two.txt test file" > two.txt 
+  433  cat two.txt 
+  434  git diff
+  435  git status
+  436  git rm 
+  437  git rm two.txt
+  438  git status
+  439  cat two.txt 
+  440  git rm -f two.txt
+  441  git status
+  442  ls
+  443  git reset --hard
+  444  ls
+  445  cat two.txt 
+  446  echo "This is a two.txt test file" > two.txt 
+  447  cat two.txt 
+  448  git status
+  449  pwd
+  450  cd ..
+  451  git clone https://github.com/bkyarnell/31Dec2018.git
+  452  ls
+  453  cd 31Dec2018/
+  454  ls
+  455  cat README.md 
+  456  git status
+  457  git init
+  458  git status
+  459  ls
+  460  touch file1.txt
+  461  vi file1.txt 
+  462  ls -l
+  463  git status
+  464  git add file1.txt 
+  465  git commit -m "First commit"
+  466  git status
+  467  git log
+  468  yum install gitk
+  469  sudo yum install gitk
+  470  su 
+  471  su
+  472  sudo yum install gitk
+  473  gitk
+  474  git branch
+  475  gitk&
+  476  git branch
+  477  ls -la
+  478  vi abc.py
+  479  py abc.py 
+  480  python abc.py 
+  481  git status
+  482  git add abc.py
+  483  git commit -m "First commit on master"
+  484  git status
+  485  git log
+  486  git status
+  487  git branch
+  488  git status
+  489  git branch
+  490  git status
+  491  ls
+  492  vi README.md 
+  493  git status
+  494  git add README.md
+  495  git commit -m "Second commit on master"
+  496  git status
+  497  git diff
+  498  git branch
+  499  git branch branch2
+  500  git status
+  501  git
+  502  git branch
+  503  git branch branch1
+  504  git branch
+  505  vi README.md 
+  506  git status
+  507  git add README.md
+  508  git commit -m "Third commit on master"
+  509  git log
+  510  git branch branch1
+  511  git
+  512  git branch
+  513  bit checkout branch1
+  514  git checkout branch1
+  515  git branch
+  516  git checkout branch2
+  517  git branch
+  518  vi tempCode.py
+  519  git status
+  520  git branch
+  521  git add tempCode.py
+  522  commit commit -m "commit on branch2"
+  523  git status
+  524  git branch
+  525  git checkout branch1
+  526  ls
+  527  it branch
+  528  git branch
+  529  ls -l
+  530  history
+  531  ls
+  532  cat tempCode.py 
+  533  ls
+  534  ls -l
+  535  git branch 
+  536  git branch branch2
+  537  git checkout branch2
+  538  git branch 
+  539  ls -l
+  540  git checkout master
+  541  git branch
+  542  ls
+  543  git checkout branch2
+  544  vi README.md 
+  545  git checkout branch1
+  546  vi README.md 
+  547  git branch
+  548  git master
+  549  vi README.md 
+  550  git branch2
+  551  git branch branch2
+  552  git checkout branch2
+  553  git branch 
+  554  vi README.md 
+  555  ls
+  556  git branch
+  557  git add README.md
+  558  git status
+  559  git commit -m "Latest commit to branch2"
+  560  git status
+  561  ls
+  562  git checkout branch1
+  563  ls
+  564  cat README.md 
+  565  git checkout branch2
+  566  git README.md
+  567  cat README.md 
+  568  git branch
+  569  git branch master
+  570  git checkout master
+  571  git branch
+  572  git checkout branch2
+  573  ls
+  574  cat README.md 
+  575  git merge master
+  576  git log
+  577  git status
+  578  git commit -A
+  579  git commit -a
+  580  git
+  581  git status
+  582  git branch
+  583  git merge master
+  584  git branch
+  585  git README.md
+  586  cat README.md 
+  587  vi README.md 
+  588  git branch
+  589  git branch1
+  590  git branch branch1
+  591  git checkout branch1
+  592  git branch
+  593  ls
+  594  cat README.md 
+  595  cd ..
+  596  ls
+  597  cd 21
+  598  cd 31Dec2018/
+  599  ls
+  600  cd ..
+  601  ls
+  602  cd gitPractice/
+  603  ls
+  604  git branch
+  605  cd ..
+  606  ls
+  607  cd 31Dec2018/
+  608  ls
+  609  git branch
+  610  cat README.md 
+  611  git branch master
+  612  git checkout master
+  613  git status
+  614  ls
+  615  cat README.md 
+  616  git branch
+  617  git branch branch2
+  618  git checkout branch2
+  619  git status
+  620  cat README.md 
+  621  git branch
+  622  gitk&
+  623  git checkout master 
+  624  gitk&
+  625  git checkout branch2
+  626  gitk&
+  627  git branch
+  628  git checkout branch2
+  629  git branch
+  630  git fetch
+  631  ls
+  632  git README.md
+  633  cat README.md 
+  634  git diff README.md
+  635  git diff -cached README.md
+  636  git diff --cached README.md
+  637  git diff master origin/master
+  638  git merge
+  639  git merge 
+  640  git branch
+  641  git status
+  642  git checkout master
+  643  git status
+  644  git merge
+  645  ls
+  646  git pull
+  647  git status
+  648  vi README.md 
+  649  git add .
+  650  git commit -m "Resolved conflicts"
+  651  git status
+  652  git merge
+  653  cat README.md 
+  654  git pull
+  655  cat README.md 
+  656  git push
+  657  ls
+  658  vi file1.txt 
+  659  git status
+  660  git add file1.txt
+  661  git status
+  662  git commit -m "Updated file1 at 5:42PM on 12-31-2018"
+  663  git push
+  664  cat file1.txt 
+  665  vi file1.txt 
+  666  cat file1.txt 
+  667  git pull file1.txt
+  668  git status
+  669  git add file1.txt
+  670  git commit -m "Update file1 - BKY strikes again"
+  671  git status
+  672  git pull
+  673  cat file1
+  674  cat file1.txt 
+  675  git push
+  676  git push file1.txt
+  677  git push 
+  678  git pull
+  679  cat file1.txt 
+  680  git status
+  681  vi file1.txt 
+  682  git status
+  683  git add file1.txt
+  684  git commit -m "BKY file1.txt update at 5:54 PM on 12-31-2018"
+  685  git status
+  686  git push
+  687  pwd
+  688  git status
+  689  ls -l
+  690  echo "\n\nThis is a new line @ 9:05 PM 12-31-2018"
+  691  printf "\n\nThis is a new line @ 9:05 PM 12-31-2018" 
+  692  printf "\n\nThis is a new line @ 9:05 PM 12-31-2018" >> file1.txt 
+  693  cat file1.txt 
+  694  printf "\n\n" >> file1.txt 
+  695  cat file1.txt 
+  696  git status
+  697  git stash save "1"
+  698  git stash
+  699  git stash list
+  700  printf "\n\nSecond change - two\n" >> file1.txt 
+  701  cat file1.txt 
+  702  printf "\n\n" >> file1.txt 
+  703  cat file1.txt 
+  704  git stash save "2"
+  705  git stash list
+  706  ls -l
+  707  su root
+  708  ls
+  709  git
+  710  exit
+  711  cd Desktop/
+  712  ls
+  713  cd vmware-tools-distrib/
+  714  ls
+  715  ./vmware-install.pl 
+  716  history
+  717  pwd
+  718  history > git_commands.txt
+  719  vi git_commands.txt 
+  720  pwd
+  721  ls -l
+  722  cd Desktop/git/
+  723  ls
+  724  cd ..
+  725  cd SampleProject/
+  726  ls
+  727  ls -l
+  728  git status
+  729  cd 31Dec2018/
+  730  ls
+  731  git status
+  732  cd ..
+  733  ls
+  734  cd gitPractice/
+  735  ls
+  736  ls -l
+  737  git status
+  738  status
+  739  git status
+  740  git add
+  741  git add -A
+  742  git status
+  743  git reset
+  744  git status
+  745  cat two.txt 
+  746  git add -A
+  747  ls -l
+  748  git status
