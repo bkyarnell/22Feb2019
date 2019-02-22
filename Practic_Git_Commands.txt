@@ -1,0 +1,24 @@
+1. Create a repository on github, i.e. 22Feb2019
+
+2. Clone the repository to the local directory
+
+   git clone https://github.com/bkyarnell/22Feb2019.git
+
+3. Copy updated files to the local directory and enter the local directory
+
+   cp <files> ./22Feb2019
+   cd 22Feb2019
+
+4. Check status of uncommitted files
+
+   git status (list should show files that were just copied from previous step)
+
+
+5. Add files to the repository
+
+  git add -A (or git add .)
+
+
+6.  Check the status
+
+  git status   (no file
